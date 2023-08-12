@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Главная</title>
+	<!--- SWIPER --->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230726013243" />
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230726013243">
+	<!-- Кодировка страницы -->
+	<!-- С появлением HTML5 можно использовать  -->
+	<meta charset="UTF-8">
+	<!-- Настройки адаптивности страницы  -->
+	<!-- Адаптивность  -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+	<!---maximum-scale=1.0, user-scalable=0--->
+	<!-- Отключает формирование ссылки у номера телефона на iOS -->
+	<!---<meta name="format-detection" content="telephone=no">--->
+
+	<!-- Краткое описание страницы  -->
+	<meta name="description" content="Grill Project, сервис по оказанию услуг в сфере кухонь">
+	<!-- Ключевые слова страницы  -->
+	<meta name="keywords" content="Grill Project, сервиc, кухни">
+
+	<!-- Управление доступом поисковых роботов к странице -->
+	<!-- Запрет индексации страницы полностью -->
+	<!---<meta name="robots" content="none">--->
+
+	<!-- Автор страницы -->
+	<meta name="Author" content="shms59">
+	<!-- Авторские права -->
+	<meta name="Copyright" content="2023">
+	<!-- Адрес автора -->
+	<meta name="Address" content="">
+
+	<!-- локализация сайта, для русскоязычного сайта ru_RU -->
+	<meta property="og:locale" content="ru_RU">
+	<!-- тип контента, по умолчанию используется article -->
+	<meta property="og:type" content="article">
+	<!-- заголовок страницы, который будет выводится в записи социальной сети -->
+	<meta property="og:title" content="Grill Project">
+	<!-- описание страницы -->
+	<meta property="og:description" content="Grill Project, сервис по оказанию услуг в сфере кухонь">
+	<!-- ссылка на изображение, которое будет публиковаться в записи -->
+	<meta property="og:image" content="">
+	<!-- ссылка на текущую страницу -->
+	<meta property="og:url" content="">
+	<!-- название сайта -->
+	<meta property="og:site_name" content="Grill Project">
+
+	<!-- Тип карты, по умолчанию используется summary -->
+	<meta name="twitter:card" content="summary">
+	<!-- Имя/логин автора -->
+	<meta name="twitter:site" content="">
+	<!-- Название страницы -->
+	<meta name="twitter:title" content="">
+	<!-- Описание страницы -->
+	<meta name="twitter:description" content="">
+	<!-- Cсылка на изображение -->
+	<meta name="twitter:image" content="">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="full-screen lock-padding">
+			<header class="header ">
+	<div class="header__wrapper  ">
+		<div class='header__container _container '>
+			<div class="header__body ">
+				<div data-spollers="767,min" class="header__burger burger">
+					<button data-spoller type="button" class="burger__button">
+						<div class="burger__icon-menu _icon-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="burger__text">
+							Все разделы
+						</div>
+					</button>
+					<div data-padding-header="24px,767" class="burger__body">
+						<nav class="burger__contacts contacts-burger">
+							<h2 class="contacts-burger__title">
+								Связаться с нами:
+							</h2>
+							<ul class="contacts-burger__list">
+								<li class="contacts-burger__item _icon-telegram"><a href="#"
+										class="contacts-burger__link">Telegram</a></li>
+								<li class="contacts-burger__item _icon-whatsapp"><a href="#"
+										class="contacts-burger__link">Whatsapp</a></li>
+								<li class="contacts-burger__item"><a href="#" class="contacts-burger__link">Связь с
+										менеджером</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<nav class="header__menu menu-header">
+					<ul data-da=".burger__body,992,first" class="menu-header__list">
+						<li class="menu-header__item"><a data-goto=".works" href="#"
+								class="menu-header__link _animation-decoration">Состав
+								работ</a>
+						</li>
+						<li class="menu-header__item"><a href="#" data-goto=".calculation"
+								class="menu-header__link _animation-decoration">Рассчитать</a></li>
+						<li class="menu-header__item"><a href="#" data-goto=".our-works"
+								class="menu-header__link _animation-decoration">Наши
+								работы</a></li>
+						<li class="menu-header__item"><a href="#" data-goto=".video"
+								class="menu-header__link _animation-decoration">Видеообзор</a>
+						</li>
+						<li class="menu-header__item"><a href="#" data-goto=".reviews"
+								class="menu-header__link _animation-decoration">Отзывы</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="#" class="header__number _animation-decoration">
+					+7 333 333 33 33
+				</a>
+				<a href="#popupCall" class="header__button _btn-vinous open-popup">
+					Заказать звонок
+				</a>
+			</div>
+		</div>
+	</div>
+
+</header>
+			<section class="main-block">
+				<div class="main-block__bg _ibg">
+					<picture><source srcset="img/main-block/bg.webp" type="image/webp"><img src="img/main-block/bg.png" alt="bg"></picture>
+				</div>
+				<div class='main-block__container _container'>
+					<div class="main-block__body">
+						<h1 class="main-block__title _anim-items">
+							Премиальные гриль-кухни
+						</h1>
+						<h2 class="main-block__sub-title _anim-items">
+							Проектирование. Изготовление. Установка.
+						</h2>
+					</div>
+					<a href="#" data-goto=".advantages" class="main-block__arrow _scroll-arrow _anim-items"></a>
+				</div>
+				<div class="main-block__footer _anim-items">
+					<div class="main-block__contacts">
+						<div class="  contacts-block">
+							<a href="#" class="contacts-block__item _icon-phone">Заказать звонок</a>
+							<a href="#" class="contacts-block__item _icon-telegram">Telegram</a>
+							<a href="#" class="contacts-block__item _icon-whatsapp">Whatsapp</a>
+						</div>
+					</div>
+
+					<div class="main-block__actions actions-main-block">
+						<a href="#" class="actions-main-block__item _icon-phone"></a>
+						<a href="#" class="actions-main-block__item _icon-calc"></a>
+					</div>
+				</div>
+			</section>
+			<main class="page">
+
+				<section class="page__advantages advantages">
+					<div class='advantages__container _container'>
+						<div class="advantages__body">
+							<h2 class="advantages__title _main-title">
+								Преимущества
+							</h2>
+							<h3 class="advantages__sub-title _main-sub-title">
+								Преимущества
+							</h3>
+							<div class="advantages__columns">
+								<article class="advantages__column">
+									<div class="advantages__item item-advantages">
+										<div class="item-advantages__icon _icon-checkbox"></div>
+										<h2 class="item-advantages__title _product-sub-title">
+											Открытые и закрытые зоны
+										</h2>
+										<div class="item-advantages__text _text">
+											Гриль-кухни можно устанавливать на открытых и закрытых площадках
+										</div>
+									</div>
+								</article>
+								<article class="advantages__column">
+									<div class="advantages__item item-advantages">
+										<div class="item-advantages__icon _icon-checkbox"></div>
+										<h2 class="item-advantages__title _product-sub-title">
+											Выбор конфигурации
+										</h2>
+										<div class="item-advantages__text _text">
+											Проектируем и изготавливаем кухни любой геометрической формы
+										</div>
+									</div>
+								</article>
+								<article class="advantages__column">
+									<div class="advantages__item item-advantages">
+										<div class="item-advantages__icon _icon-checkbox"></div>
+										<h2 class="item-advantages__title _product-sub-title">
+											Встроенная бытовая техника
+										</h2>
+										<div class="item-advantages__text _text">
+											Подготавливаем модули под любую встроенную технику
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="advantages__products">
+								<article class="advantages__product product-advantages">
+									<div class="product-advantages__item item-product-advantages">
+										<a href="#popupView" class="item-product-advantages__header open-popup">
+											<span class="item-product-advantages__image">
+												<picture><source srcset="img/advantages/01.webp" type="image/webp"><img src="img/advantages/01.png" alt="image"></picture>
+											</span>
+											<span class="item-product-advantages__bg">
+
+											</span>
+											<span data-random
+												class="item-product-advantages__ball item-product-advantages__ball_1">
+												<span></span>
+											</span>
+										</a>
+										<div class="item-product-advantages__body">
+											<h2 class="item-product-advantages__title _product-title">Удобная конфигурация</h2>
+											<div class="item-product-advantages__text _text">Подберем оптимальную форму
+												гриль-кухни, размер и наполнение каждого модуля под ваши цели и задачи</div>
+											<a href="#popupView"
+												class="item-product-advantages__link open-popup _icon-arrow ">Подробнее</a>
+										</div>
+									</div>
+								</article>
+								<article class="advantages__product product-advantages">
+									<div class="product-advantages__item item-product-advantages">
+										<a href="#popupView" class="item-product-advantages__header open-popup">
+											<span class="item-product-advantages__image">
+												<picture><source srcset="img/advantages/02.webp" type="image/webp"><img src="img/advantages/02.png" alt="image"></picture>
+											</span>
+											<span class="item-product-advantages__bg"></span>
+											<span data-random
+												class="item-product-advantages__ball item-product-advantages__ball_2">
+												<span></span>
+											</span>
+										</a>
+										<div class="item-product-advantages__body">
+											<h2 class="item-product-advantages__title _product-title">Вcтроенная техника</h2>
+											<div class="item-product-advantages__text _text">Подготовим модули и аккуратно встроим
+												бытовую технику, мойку, газовый и керамический гриль.</div>
+											<a href="#popupView"
+												class="item-product-advantages__link open-popup _icon-arrow ">Подробнее</a>
+										</div>
+									</div>
+								</article>
+								<article class="advantages__product product-advantages">
+									<div class="product-advantages__item item-product-advantages">
+										<a href="#popupView" class="item-product-advantages__header open-popup">
+											<span class="item-product-advantages__image">
+												<picture><source srcset="img/advantages/03.webp" type="image/webp"><img src="img/advantages/03.png" alt="image"></picture>
+											</span>
+											<span class="item-product-advantages__bg"></span>
+											<span data-random
+												class="item-product-advantages__ball item-product-advantages__ball_3">
+												<span></span>
+											</span>
+										</a>
+										<div class="item-product-advantages__body">
+											<h2 class="item-product-advantages__title _product-title">Выбор материалов</h2>
+											<div class="item-product-advantages__text _text">Вы можете выбрать материал, цвет и
+												текстуру фасада, и столешницы.</div>
+											<a href="#popupView"
+												class="item-product-advantages__link open-popup _icon-arrow ">Подробнее</a>
+										</div>
+									</div>
+								</article>
+							</div>
+							<a href="#" class="advantages__button _btn-transparent">Заказать звонок</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__works works">
+					<div class='works__container _container'>
+						<h2 class="works__title _main-title">
+							Состав работ
+						</h2>
+						<div class="works__wrapper">
+							<div class="works__block works__block_thumbs">
+								<div class="works__thumbs thumbs-works">
+									<div class="thumbs-works__slides">
+										<article class="thumbs-works__slide _active">
+											<div class="thumbs-works__item item-thumbs-works">
+												<div class="item-thumbs-works__number">
+													1
+												</div>
+												<div class="item-thumbs-works__text">
+													Выбор конфигурации
+												</div>
+											</div>
+										</article>
+										<article class="thumbs-works__slide">
+											<div class="thumbs-works__item item-thumbs-works">
+												<div class="item-thumbs-works__number">
+													2
+												</div>
+												<div class="item-thumbs-works__text">
+													Выбор материала и цвета
+												</div>
+											</div>
+										</article>
+										<article class="thumbs-works__slide">
+											<div class="thumbs-works__item item-thumbs-works">
+												<div class="item-thumbs-works__number">
+													3
+												</div>
+												<div class="item-thumbs-works__text">
+													Дизайн-проект
+													и изготовление
+												</div>
+											</div>
+										</article>
+										<article class="thumbs-works__slide">
+											<div class="thumbs-works__item item-thumbs-works">
+												<div class="item-thumbs-works__number">
+													4
+												</div>
+												<div class="item-thumbs-works__text">
+													Установка
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+							<div class="works__block works__block_main">
+								<div class="works__slider _swiper">
+									<div class="works__slides">
+										<article class="works__slide">
+											<div class="works__item item-works">
+												<h2 class="item-works__title">Выбор конфигурации</h2>
+												<div class="item-works__text _text">
+													На первом этапе работы мы помогаем определиться с формой кухни, количеством и
+													наполнением каждого модуля.
+													Предусматриваем блоки под установку грилей и встраиваемой бытовой техники.
+												</div>
+											</div>
+										</article>
+										<article class="works__slide">
+											<div class="works__item item-works">
+												<h2 class="item-works__title">Выбор материала и цвета</h2>
+												<div class="item-works__text _text">
+													На втором этапе определяемся с материалом будущей гриль-кухни, цветом фасада и
+													столешниц.
+													Для изготовления гриль-кухни мы используем нержавеющую сталь или композит.
+													Для столешниц мы рекомендуем композит или керамогранит.
+													Все материалы обладают высокой износостойкостью и стойко переносят перепады
+													температур и высокую влажность.
+												</div>
+											</div>
+										</article>
+										<article class="works__slide">
+											<div class="works__item item-works">
+												<h2 class="item-works__title">Дизайн-проект
+													и изготовление</h2>
+												<div class="item-works__text _text">
+													Подготавливаем прототип по заданным характеристикам, чтобы вы могли увидеть как
+													будет выглядеть ваша гриль-кухня. Подбираем гриль и бытовую технику.
+													После согласования всех деталей мы приступаем к изготовлению модулей. Срок
+													изготовления гриль-кухни - 30 дней.
+												</div>
+											</div>
+										</article>
+										<article class="works__slide">
+											<div class="works__item item-works">
+												<h2 class="item-works__title">Установка
+													гриль-кухни</h2>
+												<div class="item-works__text _text">
+													Когда кухня будет готова, мы свяжемся с вами и определим дату установки. Мы
+													привезем
+													гриль-кухню, грили и все необходимые для установки материалы и интрументы.
+													Не беспокойтесь, мы все сделаем сами.
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="works__bg _ibg">
+										<picture><source srcset="img/works/01.webp" type="image/webp"><img src="img/works/01.png" alt="bg"></picture>
+									</div>
+
+
+									<div class="works__pagination">
+										<div class="works__dotts _dotts">
+
+										</div>
+									</div>
+
+								</div>
+								<div class="works__arrows">
+									<button type="button"
+										class="works__arrow works__arrow_prev swiper-arrow-big swiper-arrow-big_prev">
+										<span></span>
+										<span></span>
+									</button>
+									<button type="button"
+										class="works__arrow works__arrow_next swiper-arrow-big swiper-arrow-big_next">
+										<span></span>
+										<span></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__calculation calculation">
+					<div class='calculation__container _container'>
+						<h2 class="calculation__title _main-title">
+							Предварительный расчёт
+						</h2>
+						<div class="calculation__text">
+							<p>Предлагаем вам посмотреть на внешний вид вашей будущей гриль-кухни и получить предварительный
+								расчет стоимости изготовления. Ваши персональные данные не потребуются.
+							</p>
+							<p>Выберите соответствующие характеристики гриль-кухни:</p>
+						</div>
+						<div class="calculation__body">
+							<div class="calculation__image">
+								<picture><source srcset="img/calculation/01.webp" type="image/webp"><img src="img/calculation/01.png" alt="image"></picture>
+							</div>
+							<div class="calculation__block">
+								<div class="calculation__items">
+									<div class="calculation__column">
+										<article class="calculation__item item-calculation">
+											<h2 class="item-calculation__title _product-title">
+												Материал фасада
+											</h2>
+											<div class="item-calculation__radios _radio-items">
+												<div class="item-calculation__radio _radio-item _choose _active">
+													<input type="radio">
+													<span></span>
+													<label>нержавеющая сталь</label>
+												</div>
+												<div class="item-calculation__radio _radio-item _choose">
+													<input type="radio">
+													<span></span>
+													<label>композит</label>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="calculation__column">
+										<article class="calculation__item item-calculation">
+											<h2 class="item-calculation__title _product-title">
+												Тип размещения
+											</h2>
+											<div class="item-calculation__radios _radio-items">
+												<div class="item-calculation__radio _radio-item _choose _active">
+													<input type="radio">
+													<span></span>
+													<label>открытая террасса</label>
+												</div>
+												<div class="item-calculation__radio _radio-item _choose">
+													<input type="radio">
+													<span></span>
+													<label>закрытая террасса</label>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="calculation__column">
+										<article class="calculation__item item-calculation">
+											<h2 class="item-calculation__title _product-title">
+												Размер
+											</h2>
+											<div class="item-calculation__radios _radio-items">
+												<div class="item-calculation__radio _radio-item _choose _active">
+													<input type="radio">
+													<span></span>
+													<label>2.2 п.м</label>
+												</div>
+												<div class="item-calculation__radio _radio-item _choose">
+													<input type="radio">
+													<span></span>
+													<label>2.8 п.м</label>
+												</div>
+												<div class="item-calculation__radio _radio-item _choose">
+													<input type="radio">
+													<span></span>
+													<label>более 3 п.м</label>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="calculation__column">
+										<article class="calculation__item item-calculation">
+											<h2 class="item-calculation__title _product-title">
+												Конфигурация
+											</h2>
+											<div class="item-calculation__radios _radio-items item-calculation__radios_row">
+												<div class="item-calculation__radio _radio-item _choose _active">
+													<input type="radio">
+													<span></span>
+													<label>Прямая</label>
+												</div>
+												<div class="item-calculation__radio _radio-item _choose">
+													<input type="radio">
+													<span></span>
+													<label>Угловая</label>
+												</div>
+												<div class="item-calculation__radio _radio-item _choose">
+													<input type="radio">
+													<span></span>
+													<label>П-образная</label>
+												</div>
+												<div class="item-calculation__radio _radio-item _choose">
+													<input type="radio">
+													<span></span>
+													<label>С островком</label>
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+								<div class="calculation__buttons">
+									<a href="#popupCalculation" class="calculation__button _btn-vinous open-popup">
+										Получить расчёт
+									</a>
+									<a href="#" class="calculation__button _btn-transparent">Связь с менеджером</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__our-works our-works">
+					<div class='our-works__body _container'>
+						<h2 class="our-works__title _main-title">Наши работы</h2>
+					</div>
+					<div class="our-works__wrapper">
+						<div class="our-works__slider _swiper">
+							<div class="our-works__slides">
+								<article class="our-works__slide">
+									<div class="our-works__bg _ibg">
+										<picture><source srcset="img/our-works/01.webp" type="image/webp"><img src="img/our-works/01.png" alt="bg"></picture>
+									</div>
+									<div class="our-works__slide-content">
+										<div class='our-works__container _container'>
+
+											<div data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100%"
+												class="our-works__item item-our-works">
+												<h2 class="item-our-works__title">
+													Гриль-кухня
+													из композитного материала
+												</h2>
+												<ul class="item-our-works__list">
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Материал:</div>
+														<div class="item-our-works__value">композитный HPL</div>
+													</li>
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Тип размещения:</div>
+														<div class="item-our-works__value">закрытая терраса</div>
+													</li>
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Конфигурация:</div>
+														<div class="item-our-works__value">прямая</div>
+													</li>
+												</ul>
+												<div class="item-our-works__text">
+													* Оборудование и столешницы не входят в стоимость кухни
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</article>
+								<article class="our-works__slide">
+									<div class="our-works__bg _ibg">
+										<picture><source srcset="img/our-works/02.webp" type="image/webp"><img src="img/our-works/02.png" alt="bg"></picture>
+									</div>
+									<div class="our-works__slide-content">
+										<div class='our-works__container _container'>
+											<div data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100%"
+												class="our-works__item item-our-works">
+												<h2 class="item-our-works__title">
+													Гриль-кухня
+													из композитного материала
+												</h2>
+												<ul class="item-our-works__list">
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Материал:</div>
+														<div class="item-our-works__value">композитный HPL</div>
+													</li>
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Тип размещения:</div>
+														<div class="item-our-works__value">закрытая терраса</div>
+													</li>
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Конфигурация:</div>
+														<div class="item-our-works__value">прямая</div>
+													</li>
+												</ul>
+												<div class="item-our-works__text">
+													* Оборудование и столешницы не входят в стоимость кухни
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+								</article>
+								<article class="our-works__slide">
+									<div class="our-works__bg _ibg">
+										<picture><source srcset="img/our-works/03.webp" type="image/webp"><img src="img/our-works/03.png" alt="bg"></picture>
+									</div>
+									<div class="our-works__slide-content">
+										<div class='our-works__container _container'>
+											<div data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100%"
+												class="our-works__item item-our-works">
+												<h2 class="item-our-works__title">
+													Гриль-кухня
+													из композитного материала
+												</h2>
+												<ul class="item-our-works__list">
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Материал:</div>
+														<div class="item-our-works__value">композитный HPL</div>
+													</li>
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Тип размещения:</div>
+														<div class="item-our-works__value">закрытая терраса</div>
+													</li>
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Конфигурация:</div>
+														<div class="item-our-works__value">прямая</div>
+													</li>
+												</ul>
+												<div class="item-our-works__text">
+													* Оборудование и столешницы не входят в стоимость кухни
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</article>
+								<article class="our-works__slide">
+									<div class="our-works__bg _ibg">
+										<picture><source srcset="img/our-works/04.webp" type="image/webp"><img src="img/our-works/04.png" alt="bg"></picture>
+									</div>
+									<div class="our-works__slide-content">
+										<div class='our-works__container _container'>
+											<div data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100%"
+												class="our-works__item item-our-works">
+												<h2 class="item-our-works__title">
+													Гриль-кухня
+													из композитного материала
+												</h2>
+												<ul class="item-our-works__list">
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Материал:</div>
+														<div class="item-our-works__value">композитный HPL</div>
+													</li>
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Тип размещения:</div>
+														<div class="item-our-works__value">закрытая терраса</div>
+													</li>
+													<li class="item-our-works__point">
+														<div class="item-our-works__label">Конфигурация:</div>
+														<div class="item-our-works__value">прямая</div>
+													</li>
+												</ul>
+												<div class="item-our-works__text">
+													* Оборудование и столешницы не входят в стоимость кухни
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</article>
+							</div>
+						</div>
+						<div class="our-works__controls">
+							<div class="our-works__arrows">
+								<button type="button"
+									class="our-works__arrow our-works__arrow_prev swiper-arrow-big swiper-arrow-big_prev">
+									<span></span>
+									<span></span>
+								</button>
+								<button type="button"
+									class="our-works__arrow our-works__arrow_next swiper-arrow-big swiper-arrow-big_next">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
+							<div class="our-works__pagination">
+								<div class="our-works__dotts _dotts">
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__video video">
+					<div class='video__container _container'>
+						<div class="video__body">
+							<h2 class="video__title _main-title">
+								Видеообзор
+							</h2>
+							<div class="video__box">
+
+								<iframe src="https://www.youtube.com/embed/6yYaPsSH6Uw" title="Make Grill" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+									allowfullscreen></iframe>
+
+							</div>
+							<h3 class="video__sub-title _main-sub-title">
+								Видеообзор
+							</h3>
+						</div>
+					</div>
+				</section>
+				<section class="page__reviews reviews">
+					<div class='reviews__container _container'>
+						<div class="reviews__body">
+							<h2 class="reviews__title _main-title">
+								Отзывы наших клиентов
+							</h2>
+							<div class="reviews__wrapper">
+								<div class="reviews__slider slider-reviews swiper-container">
+									<div class="slider-reviews__columns swiper-wrapper">
+										<article class="slider-reviews__column swiper-slide">
+											<div class="slider-reviews__item item-reviews">
+												<div class="item-reviews__image">
+													<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.png" alt="reviewImage"></picture>
+												</div>
+												<div class="item-reviews__body">
+													<h2 class="item-reviews__title">
+														Сергей В.
+													</h2>
+													<div class="item-reviews__text _text">
+														Отличная кухня, быстро договорились, произвели замеры и разработали проект!
+														Отличная компания!
+													</div>
+													<a href="#" class="item-reviews__link _icon-arrow create-review">Подробнее</a>
+												</div>
+											</div>
+										</article>
+										<article class="slider-reviews__column swiper-slide">
+											<div class="slider-reviews__item item-reviews">
+												<div class="item-reviews__image">
+													<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.png" alt="reviewImage"></picture>
+												</div>
+												<div class="item-reviews__body">
+													<h2 class="item-reviews__title">
+														Сергей В.
+													</h2>
+													<div class="item-reviews__text _text">
+														Отличная кухня, быстро договорились, произвели замеры и разработали проект!
+														Отличная компания!
+													</div>
+													<a href="#" class="item-reviews__link _icon-arrow create-review">Подробнее</a>
+												</div>
+											</div>
+										</article>
+										<article class="slider-reviews__column swiper-slide">
+											<div class="slider-reviews__item item-reviews">
+												<div class="item-reviews__image">
+													<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.png" alt="reviewImage"></picture>
+												</div>
+												<div class="item-reviews__body">
+													<h2 class="item-reviews__title">
+														Сергей В.
+													</h2>
+													<div class="item-reviews__text _text">
+														Отличная кухня, быстро договорились, произвели замеры и разработали проект!
+														Отличная компания!
+													</div>
+													<a href="#" class="item-reviews__link _icon-arrow create-review">Подробнее</a>
+												</div>
+											</div>
+										</article>
+										<article class="slider-reviews__column swiper-slide">
+											<div class="slider-reviews__item item-reviews">
+												<div class="item-reviews__image">
+													<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.png" alt="reviewImage"></picture>
+												</div>
+												<div class="item-reviews__body">
+													<h2 class="item-reviews__title">
+														Сергей В.
+													</h2>
+													<div class="item-reviews__text _text">
+														Отличная кухня, быстро договорились, произвели замеры и разработали проект!
+														Отличная компания!
+													</div>
+													<a href="#" class="item-reviews__link _icon-arrow create-review">Подробнее</a>
+												</div>
+											</div>
+										</article>
+										<article class="slider-reviews__column swiper-slide">
+											<div class="slider-reviews__item item-reviews">
+												<div class="item-reviews__image">
+													<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.png" alt="reviewImage"></picture>
+												</div>
+												<div class="item-reviews__body">
+													<h2 class="item-reviews__title">
+														Сергей В.
+													</h2>
+													<div class="item-reviews__text _text">
+														Отличная кухня, быстро договорились, произвели замеры и разработали проект!
+														Отличная компания!
+													</div>
+													<a href="#" class="item-reviews__link _icon-arrow create-review">Подробнее</a>
+												</div>
+											</div>
+										</article>
+									</div>
+
+								</div>
+								<div class="slider-reviews__controls">
+									<div class="slider-reviews__arrows">
+										<button type="button"
+											class="slider-reviews__arrow slider-reviews__arrow_prev slider-average-arrow slider-average-arrow_prev"></button>
+										<button type="button"
+											class="slider-reviews__arrow slider-reviews__arrow_next slider-average-arrow slider-average-arrow_next"></button>
+									</div>
+									<div class="slider-reviews__pagination">
+										<div class="slider-reviews__dotts _dotts"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__questions questions">
+					<h2 class='questions__title _container _main-title'>
+						Ответы на вопросы
+					</h2>
+					<div class="questions__wrapper">
+						<div class="questions__bg _ibg">
+							<picture><source srcset="img/questions/01.webp" type="image/webp"><img src="img/questions/01.png" alt="bg"></picture>
+						</div>
+						<div class='questions__container _container'>
+							<div class="questions__body">
+								<div data-spollers data-one-spoller class="questions__spollers">
+									<div class="questions__spoller spoller-questions">
+										<button type="button" data-spoller
+											class="spoller-questions__button _icon-union _product-title">
+											Можно ли устанавливать кухню на улице?
+										</button>
+										<div class="spoller-questions__hidden">
+											<div class="spoller-questions__text _text">
+												Для изготовления гриль-кухонь мы используем композитный материал HPL — органический
+												материал, изготовленный из целлюлозы, пропитанной смолами.
+												HPL бывает двух типов — для улицы и для помещений.Уличный HPL устойчив к влаге и
+												перепадам температур, так же как и наши грили,
+												поэтому кухню можно установить на улице, на открытой местности, или под козырьком.
+											</div>
+										</div>
+									</div>
+									<div class="questions__spoller spoller-questions">
+										<button type="button" data-spoller
+											class="spoller-questions__button _icon-union _product-title">
+											Можно ли устанавливать кухню на улице?
+										</button>
+										<div class="spoller-questions__hidden">
+											<div class="spoller-questions__text _text">
+												Для изготовления гриль-кухонь мы используем композитный материал HPL — органический
+												материал, изготовленный из целлюлозы, пропитанной смолами.
+												HPL бывает двух типов — для улицы и для помещений.Уличный HPL устойчив к влаге и
+												перепадам температур, так же как и наши грили,
+												поэтому кухню можно установить на улице, на открытой местности, или под козырьком.
+											</div>
+										</div>
+									</div>
+									<div class="questions__spoller spoller-questions">
+										<button type="button" data-spoller
+											class="spoller-questions__button _icon-union _product-title">
+											Можно ли устанавливать кухню на улице?
+										</button>
+										<div class="spoller-questions__hidden">
+											<div class="spoller-questions__text _text">
+												Для изготовления гриль-кухонь мы используем композитный материал HPL — органический
+												материал, изготовленный из целлюлозы, пропитанной смолами.
+												HPL бывает двух типов — для улицы и для помещений.Уличный HPL устойчив к влаге и
+												перепадам температур, так же как и наши грили,
+												поэтому кухню можно установить на улице, на открытой местности, или под козырьком.
+											</div>
+										</div>
+									</div>
+									<div class="questions__spoller spoller-questions">
+										<button type="button" data-spoller
+											class="spoller-questions__button _icon-union _product-title">
+											Можно ли устанавливать кухню на улице?
+										</button>
+										<div class="spoller-questions__hidden">
+											<div class="spoller-questions__text _text">
+												Для изготовления гриль-кухонь мы используем композитный материал HPL — органический
+												материал, изготовленный из целлюлозы, пропитанной смолами.
+												HPL бывает двух типов — для улицы и для помещений.Уличный HPL устойчив к влаге и
+												перепадам температур, так же как и наши грили,
+												поэтому кухню можно установить на улице, на открытой местности, или под козырьком.
+											</div>
+										</div>
+									</div>
+									<div class="questions__spoller spoller-questions">
+										<button type="button" data-spoller
+											class="spoller-questions__button _icon-union _product-title">
+											Можно ли устанавливать кухню на улице?
+										</button>
+										<div class="spoller-questions__hidden">
+											<div class="spoller-questions__text _text">
+												Для изготовления гриль-кухонь мы используем композитный материал HPL — органический
+												материал, изготовленный из целлюлозы, пропитанной смолами.
+												HPL бывает двух типов — для улицы и для помещений.Уличный HPL устойчив к влаге и
+												перепадам температур, так же как и наши грили,
+												поэтому кухню можно установить на улице, на открытой местности, или под козырьком.
+											</div>
+										</div>
+									</div>
+									<div class="questions__spoller spoller-questions">
+										<button type="button" data-spoller
+											class="spoller-questions__button _icon-union _product-title">
+											Можно ли устанавливать кухню на улице?
+										</button>
+										<div class="spoller-questions__hidden">
+											<div class="spoller-questions__text _text">
+												Для изготовления гриль-кухонь мы используем композитный материал HPL — органический
+												материал, изготовленный из целлюлозы, пропитанной смолами.
+												HPL бывает двух типов — для улицы и для помещений.Уличный HPL устойчив к влаге и
+												перепадам температур, так же как и наши грили,
+												поэтому кухню можно установить на улице, на открытой местности, или под козырьком.
+											</div>
+										</div>
+									</div>
+									<div class="questions__spoller spoller-questions">
+										<button type="button" data-spoller
+											class="spoller-questions__button _icon-union _product-title">
+											Можно ли устанавливать кухню на улице?
+										</button>
+										<div class="spoller-questions__hidden">
+											<div class="spoller-questions__text _text">
+												Для изготовления гриль-кухонь мы используем композитный материал HPL — органический
+												материал, изготовленный из целлюлозы, пропитанной смолами.
+												HPL бывает двух типов — для улицы и для помещений.Уличный HPL устойчив к влаге и
+												перепадам температур, так же как и наши грили,
+												поэтому кухню можно установить на улице, на открытой местности, или под козырьком.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="questions__block">
+									<h2 class="questions__sub-title _product-title">
+										У вас остались вопросы?
+									</h2>
+									<form action="#" method="post" class="questions__form form-questions">
+										<div class="form-questions__item">
+											<input type="text" placeholder="Имя" required autocomplete="off"
+												class="form-questions__input">
+										</div>
+										<div class="form-questions__item">
+											<select class="form-questions__select">
+												<option class="form-questions__option">
+													+7
+												</option>
+												<option class="form-questions__option">
+													+44
+												</option>
+												<option class="form-questions__option">
+													+8
+												</option>
+											</select>
+											<input type="tel" placeholder="(999) 555-55-55" required autocomplete="off"
+												class="form-questions__input form-questions__input_tel">
+										</div>
+										<div class="form-questions__actions">
+											<a href="#" class="form-questions__action _icon-phone _active">Звонок</a>
+											<a href="#" class="form-questions__action _icon-telegram">Telegram</a>
+											<a href="#" class="form-questions__action _icon-whatsapp">Whatsapp</a>
+										</div>
+										<button type="submit" class="form-questions__button _btn-vinous">Оставить заявку</button>
+										<div class="form-questions__text">
+											Заполняя данную форму я даю согласие на обработку персональных данных и принимаю
+											условия политики
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__brends brends">
+					<div class='brends__container _container'>
+						<h2 class="brends__title _main-title">
+							Мы
+							являемся дилером
+						</h2>
+						<div class="brends__wrapper">
+							<div class="brends__slider _swiper">
+								<div class="brends__slides">
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/01.webp" type="image/webp"><img src="img/brends/01.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/02.webp" type="image/webp"><img src="img/brends/02.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/03.webp" type="image/webp"><img src="img/brends/03.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/04.webp" type="image/webp"><img src="img/brends/04.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/05.webp" type="image/webp"><img src="img/brends/05.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/01.webp" type="image/webp"><img src="img/brends/01.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/02.webp" type="image/webp"><img src="img/brends/02.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/03.webp" type="image/webp"><img src="img/brends/03.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/04.webp" type="image/webp"><img src="img/brends/04.png" alt="brend"></picture>
+										</div>
+									</article>
+									<article class="brends__slide">
+										<div class="brends__image">
+											<picture><source srcset="img/brends/05.webp" type="image/webp"><img src="img/brends/05.png" alt="brend"></picture>
+										</div>
+									</article>
+								</div>
+							</div>
+							<div class="brends__controls">
+								<div class="brends__arrows">
+									<button type="button"
+										class="brends__arrow brends__arrow_prev slider-average-arrow slider-average-arrow_prev"></button>
+									<button type="button"
+										class="brends__arrow brends__arrow_next slider-average-arrow slider-average-arrow_next"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__shop shop">
+					<div class='shop__container _container'>
+						<div class="shop__body">
+							<h2 class="shop__title _main-title">
+								Наши магазины
+							</h2>
+							<div class="shop__columns _gallery">
+								<article class="shop__column">
+									<div class="shop__item item-shop">
+										<div class="item-shop__image">
+											<picture><source srcset="img/shop/01.webp" type="image/webp"><img src="img/shop/01.png" alt="image"></picture>
+										</div>
+										<div class="item-shop__body">
+											<h2 class="item-shop__title _product-sub-title">Москва</h2>
+											<div class="item-shop__text _text">Калужское шоссе, поселение Сосенское, ул. Сосновская
+												3Б</div>
+										</div>
+
+									</div>
+								</article>
+								<article class="shop__column">
+									<div class="shop__item item-shop">
+										<div class="item-shop__image">
+											<picture><source srcset="img/shop/02.webp" type="image/webp"><img src="img/shop/02.png" alt="image"></picture>
+										</div>
+										<div class="item-shop__body">
+											<h2 class="item-shop__title _product-sub-title">Москва</h2>
+											<div class="item-shop__text _text">Калужское шоссе, поселение Сосенское, ул. Сосновская
+												3Б</div>
+										</div>
+
+									</div>
+								</article>
+								<article class="shop__column">
+									<div class="shop__item item-shop">
+										<div class="item-shop__image">
+											<picture><source srcset="img/shop/03.webp" type="image/webp"><img src="img/shop/03.png" alt="image"></picture>
+										</div>
+										<div class="item-shop__body">
+											<h2 class="item-shop__title _product-sub-title">Москва</h2>
+											<div class="item-shop__text _text">Калужское шоссе, поселение Сосенское, ул. Сосновская
+												3Б</div>
+										</div>
+
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+	<div class='footer__container _container'>
+		<div class="footer__body">
+			<div class="footer__level">
+				<nav class="footer__menu menu-footer">
+					<h2 class="menu-footer__title">
+						Навигация по сайту
+					</h2>
+					<ul class="menu-footer__list">
+						<li class="menu-footer__item"><a href="#" data-goto=".advantages"
+								class="menu-footer__link _animation-decoration">Преимущества</a></li>
+						<li class="menu-footer__item"><a href="#" data-goto=".works"
+								class="menu-footer__link _animation-decoration">Состав
+								работ</a></li>
+						<li class="menu-footer__item"><a href="#" data-goto=".calculation"
+								class="menu-footer__link _animation-decoration">Предварительный расчет</a></li>
+						<li class="menu-footer__item"><a href="#" data-goto=".our-works"
+								class="menu-footer__link _animation-decoration">Наши
+								работы</a></li>
+						<li class="menu-footer__item"><a href="#" data-goto=".questions"
+								class="menu-footer__link _animation-decoration">Ответы на
+								вопросы</a></li>
+
+					</ul>
+				</nav>
+				<div class="footer__actions actions-footer">
+					<div class="actions-footer__body">
+						<a href="+7 333 333 33 33" class="actions-footer__number  _animation-decoration">+7 333 333 33 33</a>
+						<a href="#popupCall" class="actions-footer__button _btn-vinous open-popup">Заказать звонок</a>
+						<div class="actions-footer__icons">
+							<a href="#" class="actions-footer__icon _icon-telegram">Telegram</a>
+							<a href="#" class="actions-footer__icon _icon-whatsapp">Whatsapp</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__level">
+				<div class="footer__block">
+					<a href="#" data-goto=".shop" class="footer__label">Магазины</a>
+					<ul class="footer__locations">
+
+						<li>
+							<a href="https://yandex.ru/maps/213/moscow/house/sosnovaya_ulitsa_3b/Z04YcgNpS0wGQFtvfXl2cXxkYQ==/?ll=37.449291%2C55.570075&z=16"
+								class="footer__location _icon-location">
+								Москва, Калужское шоссе, поселение Сосенское, ул. Сосновская 3Б
+							</a>
+						</li>
+						<li>
+							<a href="https://yandex.ru/maps/213/moscow/house/ryabinovaya_ulitsa_15/Z04YdQ9lSUIOQFtvfXlzdXRgYA==/?ll=37.385080%2C55.524834&z=16"
+								class="footer__location _icon-location">
+								Москва, Калужское шоссе, поселение Десеновское, деревня Десна, ул. Рябиновая 15
+							</a>
+						</li>
+						<li>
+							<a href="https://yandex.ru/maps/2/saint-petersburg/house/mezhevoy_kanal_5akh/Z0kYdANpQU0AQFtjfXVwcHlqYw==/?ll=30.249887%2C59.911597&z=16"
+								class="footer__location _icon-location">
+								Санкт-Петербург, Межевой канал 5 АХ
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__text">
+					<p>
+						Политика конфиденциальности
+					</p>
+					<p>
+						Пользовательское соглашение
+					</p>
+					<p>
+						Публичная оферта
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+		</div>
+	</div>
+	<article id="popupCall" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__body">
+			<a href="#" class="popup__close _icon-union close-popup"> </a>
+			<h2 class="popup__title _product-title">
+				Заказать звонок
+			</h2>
+			<form action="#" class="popup__form form-popup">
+				<div class="form-popup__item">
+					<div class="form-popup__label">Имя</div>
+					<input type="text" required autocomplete="off" placeholder="Имя" class="form-popup__input">
+				</div>
+				<div class="form-popup__item">
+					<div class="form-popup__label">Телефон</div>
+					<select class="form-popup__select">
+						<option class="form-popup__option">
+							+7
+						</option>
+						<option class="form-popup__option">
+							+44
+						</option>
+						<option class="form-popup__option">
+							+8
+						</option>
+					</select>
+					<input type="tel" required autocomplete="off" placeholder="(999) 555-55-55"
+						class="form-popup__input form-popup__input_tel">
+				</div>
+				<div class="form-popup__actions">
+					<a href="#" class="form-popup__action _icon-phone _active">Звонок</a>
+					<a href="#" class="form-popup__action _icon-telegram">Telegram</a>
+					<a href="#" class="form-popup__action _icon-whatsapp">Whatsapp</a>
+				</div>
+				<button type="submit" class="form-popup__button _btn-vinous">
+					Заказать звонок
+				</button>
+				<div class="form-popup__text">
+					Заполняя данную форму я даю согласие на обработку персональных данных и принимаю условия политики
+				</div>
+			</form>
+		</div>
+	</div>
+</article>
+	<!---<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20230726013243"></script>-->
+	<script src="js/app.min.js?_v=20230726013243"></script>
+</body>
+
+</html>
